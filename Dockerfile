@@ -15,6 +15,6 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 4200
+EXPOSE 3000
 
 CMD ng serve --host 0.0.0.0
