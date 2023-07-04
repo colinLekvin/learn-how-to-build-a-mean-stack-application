@@ -16,4 +16,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ng serve --host 0.0.0.0
+CMD ["node", "server/server.js"]
